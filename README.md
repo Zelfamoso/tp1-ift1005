@@ -1,4 +1,4 @@
-# devoir4-ift1005
+# tp1-ift1005
 - [ ]  Mettre Nom + prénom + matricule dans chaque document remis
 - [ ]  HTML vérifié
 - [ ]  CSS vérifié 
