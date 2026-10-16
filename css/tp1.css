@@ -9,3 +9,40 @@ Maximo Mayorga
 20345993
 maximo.mayorga@umontreal.ca
 */
+
+body {
+    background-color: whitesmoke;
+    font-family: Verdana, Arial, sans-serif;
+}
+
+header {
+    background-color: darksalmon;
+    text-align: center;
+}
+
+nav {
+    text-align: center;
+    font-weight: bold;
+    font-size: larger;
+    color: blackx;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+}
+
+nav #current {
+    color: rgb(127, 110, 110);
+}
+
+footer {
+    background-color: lightpink;
+    text-align: center;
+    font-size: smaller;
+    font-style: italic;
+}
+
+footer p {
+    font-weight: bold;
+}
