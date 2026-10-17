@@ -24,7 +24,7 @@ nav {
     text-align: center;
     font-weight: bold;
     font-size: larger;
-    color: blackx;
+    color: black;
 }
 
 a {
@@ -45,6 +45,13 @@ footer {
 
 footer p {
     font-weight: bold;
+}
+
+.plan {
+    display: block;
+    margin: 0 auto;
+    max-width: 100%;
+    height: auto;
 }
 
 .image_accueil {
