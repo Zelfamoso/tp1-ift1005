@@ -47,17 +47,29 @@ footer p {
     font-weight: bold;
 }
 
-.plan {
+#plan {
     display: block;
     margin: 0 auto;
-    max-width: 100%;
+    max-width: 70%;
     height: auto;
 }
+
+#statue {
+    float: left;
+    width: 25%;
+    max-width: 30%;
+}
+
+#immersion {
+    float: right;
+    width: 25%;
+    max-width: 30%;
+}
+
 
 .image_accueil {
     float: right;
     width: 50%;
-    padding: 25px;
 }
 
 .div_acc {
