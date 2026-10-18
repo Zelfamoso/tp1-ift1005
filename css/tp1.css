@@ -42,6 +42,19 @@ a {
     text-decoration: none;
 }
 
+h1 {
+    font-size: larger;
+}
+
+h2 {
+    font-size: larger;
+}
+
+h3 {
+    font-size: larger;
+}
+
+
 nav #current {
     color: #9aa7b8;
 }
@@ -54,29 +67,32 @@ footer {
     color: #f0f2f6;
 }
 
-footer p {
+footer > p {
     font-weight: bold;
 }
+
 
 #plan {
     display: block;
     margin: 0 auto;
-    max-width: 70%;
+    max-width: 40%;
     height: auto;
 }
 
 #statue {
     float: left;
+    margin: 10px;
     width: 25%;
     max-width: 30%;
+    display: block;
 }
 
 #immersion {
     float: right;
+    margin: 10px;
     width: 25%;
     max-width: 30%;
 }
-
 
 .image_accueil {
     float: right;
