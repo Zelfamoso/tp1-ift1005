@@ -42,18 +42,6 @@ a {
     text-decoration: none;
 }
 
-h1 {
-    font-size: larger;
-}
-
-h2 {
-    font-size: larger;
-}
-
-h3 {
-    font-size: larger;
-}
-
 
 nav #current {
     color: #9aa7b8;
@@ -72,26 +60,29 @@ footer > p {
 }
 
 
-#plan {
+#plan_musée {
     display: block;
     margin: 0 auto;
     max-width: 40%;
     height: auto;
 }
 
-#statue {
-    float: left;
-    margin: 10px;
+.organisation-interne {
+    display: flex;
+}
+
+.image {
+    margin: 20px;
     width: 25%;
     max-width: 30%;
-    display: block;
+}
+
+#statue {
+    float: left;
 }
 
 #immersion {
     float: right;
-    margin: 10px;
-    width: 25%;
-    max-width: 30%;
 }
 
 .image_accueil {
@@ -113,20 +104,30 @@ p {
     font-family: Montserrat, Arial, Helvetica, sans-serif;
 }
 
+.plan{
+    font-size: 30px;
+    margin: 20px;
+}
+
 h1 {
     color: #f0f2f6;
+    font-size: larger;
 }
 
 h2 {
     color: #f0f2f6;
+    font-size: larger;
 }
 
 h3 {
     color: #f0f2f6;
+    font-size: larger;
+    margin: 20px;
 }
 
 h4 {
     color: #f0f2f6;
+    font-size: larger;
 }
 
 ul {
