@@ -33,8 +33,12 @@ header {
 nav {
     text-align: center;
     font-weight: bold;
-    font-size: larger;
+    font-size: 25px;
     color: #f0f2f6;
+}
+
+nav #current {
+    color: #9aa7b8;
 }
 
 a {
@@ -42,9 +46,9 @@ a {
     text-decoration: none;
 }
 
-
-nav #current {
-    color: #9aa7b8;
+p {
+    color: #f0f2f6;
+    font-family: Montserrat, Arial, Helvetica, sans-serif;
 }
 
 footer {
@@ -59,8 +63,12 @@ footer > p {
     font-weight: bold;
 }
 
+.plan{
+    font-size: 25px;
+    margin: 20px;
+}
 
-#plan_musée {
+#map_musée {
     display: block;
     margin: 0 auto;
     max-width: 40%;
@@ -69,12 +77,26 @@ footer > p {
 
 .organisation-interne {
     display: flex;
+    position: relative;
+    width: 80%;
+    left: 10%;
+    right: 10%;
+    top: 20%;
+}
+
+h3.plan, h2.plan {
+    position: relative;
+    width: 80%;
+    left: 10%;
+    right: 10%;
+    top: 20%;
+    padding-top: 30px;
 }
 
 .image {
     margin: 20px;
-    width: 25%;
-    max-width: 30%;
+    width: 32%;
+    max-width: 40%;
 }
 
 #statue {
@@ -99,19 +121,9 @@ footer > p {
     padding: 30px;
 }
 
-p {
-    color: #f0f2f6;
-    font-family: Montserrat, Arial, Helvetica, sans-serif;
-}
-
-.plan{
-    font-size: 30px;
-    margin: 20px;
-}
-
 h1 {
     color: #f0f2f6;
-    font-size: larger;
+    font-size: 30px;
 }
 
 h2 {
