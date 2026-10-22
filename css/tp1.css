@@ -46,6 +46,10 @@ a {
     text-decoration: none;
 }
 
+a.lien {
+    color: orange;
+}
+
 p {
     color: #f0f2f6;
     font-family: Montserrat, Arial, Helvetica, sans-serif;
