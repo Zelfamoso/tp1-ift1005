@@ -54,7 +54,7 @@ nav {
     font-weight: bold;
     font-size: 25px;
     color: #f0f2f6;
-    padding-bottom: 100px;
+    padding-bottom: 40px;
 }
 
 nav #current {
@@ -241,4 +241,8 @@ ol {
     display: block;
     margin: auto;
     text-align: left;
+}
+
+code {
+    color: #f0f2f6;
 }
