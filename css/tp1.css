@@ -54,7 +54,7 @@ nav {
     font-weight: bold;
     font-size: 25px;
     color: #f0f2f6;
-    padding-bottom: 20px;
+    padding-bottom: 100px;
 }
 
 nav #current {
@@ -211,21 +211,34 @@ ol {
 
 .container {
     display: flex;
+    flex-direction: row;
     width: 100%;
-    height: 300px;
-    gap: 10px;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding-bottom: 60px;
 }
 
-.quarter {
-    flex: 1;
-    padding: 15px;
+.card {
+    box-sizing: border-box;
+    width: 100%;
+    text-align: left;
+    max-width: 70%;
 }
 
-.three-quarters {
-    flex: 3;
-    padding: 15px;
+.column1 {
+    box-sizing: border-box;
+    width: 100%;
+    max-width: 30%;
+    display: block;
+    margin: auto;
+    text-align: right;
 }
 
-code {
-    color: #f0f2f6;
+.column2 {
+    box-sizing: border-box;
+    width: 100%;
+    max-width: 30%;
+    display: block;
+    margin: auto;
+    text-align: left;
 }
