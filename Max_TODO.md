@@ -16,3 +16,6 @@ tous les h2-3 et les p, jvais arranger pour rendre sa propre et bien logique.
 **Remarque**
 Tu trouve pas que le nav et le footer sont très petits? Ou c'est mon texte dans plan
 qui est gros ?
+AAB Oui un ti peu gros, mais soit on agrandi le nav, soit on mets plsu petit le body, pas plus grave que ca :)
+
+YOOOOOOOOO peut tu fix le footer, il est toujours par dessus le body des pages, et jarrives pas a fix, marciiiiii

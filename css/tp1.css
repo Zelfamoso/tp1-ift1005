@@ -22,12 +22,31 @@ maximo.mayorga@umontreal.ca
 body {
     background-color: #1A2233;
     font-family: Montserrat, Arial, Helvetica, sans-serif;
+    margin-left: 100px;
+    margin-right: 100px;
 }
 
 header {
-    background-color: #2f3f5c;
+    background-image: url('/images/banner.png');
     text-align: center;
     font-family: Bodoni, Arial, Helvetica, sans-serif;
+}
+
+.head {
+    display: flex;
+    justify-content: center;
+}
+
+head img {
+    width: 150px;
+    height: auto;
+    max-width: 100%;
+    object-fit: contain;
+}
+
+.resize {
+    width: 50px;
+    height: auto;
 }
 
 nav {
@@ -35,6 +54,7 @@ nav {
     font-weight: bold;
     font-size: 25px;
     color: #f0f2f6;
+    padding-bottom: 20px;
 }
 
 nav #current {
@@ -53,6 +73,8 @@ a.lien {
 p {
     color: #f0f2f6;
     font-family: Montserrat, Arial, Helvetica, sans-serif;
+    letter-spacing: 5%;
+    line-height: 200%;
 }
 
 footer {
@@ -63,12 +85,11 @@ footer {
     color: #f0f2f6;
 }
 
-footer > p {
+footer p {
     font-weight: bold;
 }
 
-.plan{
-    font-size: 25px;
+.plan {
     margin: 20px;
 }
 
@@ -88,7 +109,8 @@ footer > p {
     top: 20%;
 }
 
-h3.plan, h2.plan {
+h3.plan,
+h2.plan {
     position: relative;
     width: 80%;
     left: 10%;
@@ -99,7 +121,8 @@ h3.plan, h2.plan {
 
 .image {
     margin: 20px;
-    width: 32%;
+    width: auto;
+    height: 32%;
     max-width: 40%;
 }
 
@@ -128,17 +151,23 @@ h3.plan, h2.plan {
 h1 {
     color: #f0f2f6;
     font-size: 30px;
+    padding: 25px;
+    border: 0;
+    margin: 0;
+    align-self: center;
+    float: right;
 }
 
 h2 {
     color: #f0f2f6;
-    font-size: larger;
+    font-family: Bodoni, Arial, Helvetica, sans-serif;
 }
 
 h3 {
     color: #f0f2f6;
     font-size: larger;
     margin: 20px;
+    font-family: Bodoni, Arial, Helvetica, sans-serif;
 }
 
 h4 {
@@ -151,5 +180,52 @@ ul {
 }
 
 ol {
+    color: #f0f2f6;
+}
+
+/* Style pour page d'accueil flottant*/
+.section {
+    height: 100vh;
+    background-image: url("/images/accueil_flottant.jpg");
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.section h1 {
+    color: #1A2233;
+    background: rgba(0, 0, 0, 0.35);
+    padding: 20px 40px;
+    font-size: 42px;
+}
+
+.content {
+    height: 100vh;
+    background: #1A2233;
+}
+
+/* Fin du style pour page d'accueil flottant*/
+
+.container {
+    display: flex;
+    width: 100%;
+    height: 300px;
+    gap: 10px;
+}
+
+.quarter {
+    flex: 1;
+    padding: 15px;
+}
+
+.three-quarters {
+    flex: 3;
+    padding: 15px;
+}
+
+code {
     color: #f0f2f6;
 }
