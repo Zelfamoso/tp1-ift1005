@@ -87,51 +87,7 @@ footer {
 
 footer p {
     font-weight: bold;
-}
-
-.plan {
-    margin: 20px;
-}
-
-#map_musée {
-    display: block;
-    margin: 0 auto;
-    max-width: 40%;
-    height: auto;
-}
-
-.organisation-interne {
-    display: flex;
-    position: relative;
-    width: 80%;
-    left: 10%;
-    right: 10%;
-    top: 20%;
-}
-
-h3.plan,
-h2.plan {
-    position: relative;
-    width: 80%;
-    left: 10%;
-    right: 10%;
-    top: 20%;
-    padding-top: 30px;
-}
-
-.image {
-    margin: 20px;
-    width: auto;
-    height: 32%;
-    max-width: 40%;
-}
-
-#statue {
-    float: left;
-}
-
-#immersion {
-    float: right;
+    font-size: larger;
 }
 
 .image_accueil {
@@ -166,7 +122,6 @@ h2 {
 h3 {
     color: #f0f2f6;
     font-size: larger;
-    margin: 20px;
     font-family: Bodoni, Arial, Helvetica, sans-serif;
 }
 
@@ -182,6 +137,44 @@ ul {
 ol {
     color: #f0f2f6;
 }
+
+/* Style pour la page arts */
+h3.arts,h2.arts {
+    position: relative;
+    width: 80%;
+    left: 10%;
+    right: 10%;
+    top: 20%;
+    padding-top: 30px;
+    margin: 20px;
+}
+
+.organisation-interne {
+    display: flex;
+    position: relative;
+    width: 80%;
+    left: 10%;
+    right: 10%;
+    top: 20%;
+}
+
+#statue {
+    float: left;
+}
+
+#immersion {
+    float: right;
+}
+
+.image {
+    margin: 20px;
+    width: auto;
+    height: 32%;
+    max-width: 40%;
+}
+
+/* Fin du style pour la page arts*/
+
 
 /* Style pour page d'accueil flottant*/
 .section {
@@ -206,8 +199,29 @@ ol {
     height: 100vh;
     background: #1A2233;
 }
-
 /* Fin du style pour page d'accueil flottant*/
+
+/* Style pour page plan */
+.plan {
+    margin: 20px;
+}
+
+#map_musée {
+    display: block;
+    margin: 0 auto;
+    max-width: 40%;
+    height: auto;
+}
+
+h2.plan {
+    position: relative;
+    width: 80%;
+    left: 10%;
+    right: 10%;
+    top: 20%;
+    padding-top: 30px;
+}
+/* Fin du style pour la d'accueil flottant */
 
 .container {
     display: flex;
