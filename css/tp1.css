@@ -30,6 +30,7 @@ header {
     background-image: url('/images/banner.png');
     text-align: center;
     font-family: Bodoni, Arial, Helvetica, sans-serif;
+    background-color: #2f3f5c;
 }
 
 .head {
@@ -55,6 +56,7 @@ nav {
     font-size: 25px;
     color: #f0f2f6;
     padding-bottom: 40px;
+    background-color: #2f3f5c;
 }
 
 nav #current {
@@ -132,49 +134,14 @@ h4 {
 
 ul {
     color: #f0f2f6;
+    list-style-type: circle;
+    padding: 10px;
 }
 
 ol {
     color: #f0f2f6;
+    padding: 10px;
 }
-
-/* Style pour la page arts */
-h3.arts,h2.arts {
-    position: relative;
-    width: 80%;
-    left: 10%;
-    right: 10%;
-    top: 20%;
-    padding-top: 30px;
-    margin: 20px;
-}
-
-.organisation-interne {
-    display: flex;
-    position: relative;
-    width: 80%;
-    left: 10%;
-    right: 10%;
-    top: 20%;
-}
-
-#statue {
-    float: left;
-}
-
-#immersion {
-    float: right;
-}
-
-.image {
-    margin: 20px;
-    width: auto;
-    height: 32%;
-    max-width: 40%;
-}
-
-/* Fin du style pour la page arts*/
-
 
 /* Style pour page d'accueil flottant*/
 .section {
@@ -201,19 +168,32 @@ h3.arts,h2.arts {
 }
 /* Fin du style pour page d'accueil flottant*/
 
-/* Style pour page plan */
-.plan {
-    margin: 20px;
+/* Style pour la page apropos */
+.organisation-contraste {
+    display: flex;
+    position: relative;
 }
 
-#map_musée {
-    display: block;
-    margin: 0 auto;
-    max-width: 40%;
-    height: auto;
+#contraste {
+    width: 600px;
+    height: 300px;
+    border: 4px solid orange;
+    display: flex;
+    position: relative;
+    margin-right: 10px;
 }
 
-h2.plan {
+#contraste2 {
+    width: 600px;
+    height: 300px;
+    border: 4px solid orange;
+    display: flex;
+    position: relative;
+}
+/* Fin du style pour la page apropos */
+
+/* Style pour la page arts */
+h3.arts,h2.arts {
     position: relative;
     width: 80%;
     left: 10%;
@@ -221,8 +201,39 @@ h2.plan {
     top: 20%;
     padding-top: 30px;
 }
-/* Fin du style pour la d'accueil flottant */
 
+.organisation-interne {
+    display: flex;
+    position: relative;
+    width: 80%;
+    left: 10%;
+    right: 10%;
+    top: 20%;
+}
+
+#statue, #conference {
+    margin-right: 30px;
+    float: left;
+}
+
+#immersion, #photo {
+    margin-left: 20px;
+    float: right;
+}
+
+#photo {
+    margin-bottom: 20px;
+}
+
+.image {
+    border-radius: 30%;
+    width: auto;
+    height: 32%;
+    max-width: 40%;
+}
+/* Fin du style pour la page arts*/
+
+/* Style pour page histoire */
 .container {
     display: flex;
     flex-direction: row;
@@ -256,6 +267,25 @@ h2.plan {
     margin: auto;
     text-align: left;
 }
+/* Fin du style pour page histoire */
+
+/* Style pour page plan */
+#map_musée {
+    display: block;
+    margin: 0 auto;
+    max-width: 40%;
+    height: auto;
+    border-radius: 40px;
+    padding-bottom: 20px;
+}
+
+p.plan {
+    text-align: center;
+    font-size: larger;
+}
+/* Fin du style pour plan */
+
+
 
 code {
     color: #f0f2f6;

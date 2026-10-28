@@ -21,20 +21,20 @@ Page d'accueil — index.html
 - [ ] Vérifier que la page sert réellement de guide à la navigation.
 
 Page À propos — apropos.html
-- [ ] Décrire clairement le public cible du site.
-- [ ] Présenter les principes de conception Web vus en cours que le site respecte.
+- [X] Décrire clairement le public cible du site.
+- [X] Présenter les principes de conception Web vus en cours que le site respecte.
 - [ ] Fournir une preuve pour chaque principe présenté : capture d'écran, mesure, extrait de code ou justification concrète.
 - [ ] Vérifier que chaque affirmation est accompagnée d'une preuve.
-- [ ] Ajouter une liste non numérotée des sources Web de toutes les images utilisées sur le site.
-- [ ] Fournir les sources précises des images, et non simplement Google Images.
+- [X] Ajouter une liste non numérotée des sources Web de toutes les images utilisées sur le site.
+- [X] Fournir les sources précises des images, et non simplement Google Images.
 
 Trois pages de contenu original
-- [ ] Créer 3 pages supplémentaires avec du contenu substantiel et pertinent.
+- [X] Créer 3 pages supplémentaires avec du contenu substantiel et pertinent.
 - [ ] Développer suffisamment chaque page pour éviter l'impression d'une page vide ou incomplète.
-- [ ] Ajouter au moins 3 images dans au moins une des trois pages (le logo du header ne compte pas).
-- [ ] Faire en sorte qu'au moins une de ces images ait une forme circulaire grâce à une bordure entièrement arrondie.
-- [ ] Ajouter une liste numérotée contenant une liste imbriquée.
-- [ ] Numéroter aussi la liste imbriquée, mais avec un type d'indices différent de celui de la liste principale.
+- [X] Ajouter au moins 3 images dans au moins une des trois pages (le logo du header ne compte pas).
+- [X] Faire en sorte qu'au moins une de ces images ait une forme circulaire grâce à une bordure entièrement arrondie.
+- [X] Ajouter une liste numérotée contenant une liste imbriquée.
+- [X] Numéroter aussi la liste imbriquée, mais avec un type d'indices différent de celui de la liste principale.
 - [ ] Créer un petit logo ou badge uniquement avec du CSS, sans utiliser d'image.
 - [ ] Donner au badge un aspect soigné, coloré et en relief, avec les effets visuels vus en cours.
 - [ ] Intégrer directement dans le HTML une figure SVG personnalisée et originale.
