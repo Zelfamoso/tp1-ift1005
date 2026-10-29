@@ -166,6 +166,14 @@ ol {
     height: 100vh;
     background: #1A2233;
 }
+
+#presentation {
+    display: inline-block;
+}
+
+.presentation {
+    text-align: center;
+}
 /* Fin du style pour page d'accueil flottant*/
 
 /* Style pour la page apropos */
