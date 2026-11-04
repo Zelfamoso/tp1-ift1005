@@ -1,22 +1,22 @@
 # tp1-ift1005
 
 Éléments obligatoires sur les 5 pages
-- [ ] Un header contenant un titre h1.
-- [ ] Une image servant de logo dans le header.
-- [ ] Un menu de navigation qui permet d'accéder aux 5 pages.
+- [X] Un header contenant un titre h1.
+- [X] Une image servant de logo dans le header.
+- [X] Un menu de navigation qui permet d'accéder aux 5 pages.
 - [ ] Un lien du menu visuellement distinct pour la page actuellement affichée.
-- [ ] Un main contenant du contenu propre à la page.
-- [ ] Quelques paragraphes originaux et des images pertinentes dans le main.
+- [X] Un main contenant du contenu propre à la page.
+- [X] Quelques paragraphes originaux et des images pertinentes dans le main.
 - [ ] Aucun texte Lorem Ipsum : tout le texte doit être rédigé par l'équipe et lié au sujet.
-- [ ] Un footer contenant les noms et prénoms des deux membres en gras.
-- [ ] Les noms et prénoms sont les seuls mots en gras dans le footer.
-- [ ] La date de la dernière mise à jour du site figure dans le footer.
+- [X] Un footer contenant les noms et prénoms des deux membres en gras.
+- [X] Les noms et prénoms sont les seuls mots en gras dans le footer.
+- [X] La date de la dernière mise à jour du site figure dans le footer.
 
 Page d'accueil — index.html
-- [ ] Présenter brièvement le site et sa raison d'être.
-- [ ] Expliquer ce que les visiteurs peuvent trouver sur le site.
-- [ ] Expliquer comment naviguer entre les différentes pages.
-- [ ] Ajouter un ou plusieurs paragraphes pertinents.
+- [X] Présenter brièvement le site et sa raison d'être.
+- [X] Expliquer ce que les visiteurs peuvent trouver sur le site.
+- [X] Expliquer comment naviguer entre les différentes pages.
+- [X] Ajouter un ou plusieurs paragraphes pertinents.
 - [ ] Ajouter au moins une image en lien avec le texte.
 - [ ] Vérifier que la page sert réellement de guide à la navigation.
 

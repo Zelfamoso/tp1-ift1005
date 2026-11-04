@@ -87,9 +87,12 @@ footer {
     color: #f0f2f6;
 }
 
-footer p {
+footer > p {
+    line-height: normal;
+}
+
+p.noms {
     font-weight: bold;
-    font-size: larger;
 }
 
 .image_accueil {
@@ -169,6 +172,9 @@ ol {
 
 #presentation {
     display: inline-block;
+    margin-left: 17%;
+    padding: 10px;
+    background-image: radial-gradient(circle, #d9d9d9, #2a3347);
 }
 
 .presentation {
@@ -197,6 +203,13 @@ ol {
     border: 4px solid orange;
     display: flex;
     position: relative;
+}
+
+#preuve-proximite {
+    height: 400px;
+    display: block;
+    margin: 0 auto;
+    border:4px solid azure;
 }
 /* Fin du style pour la page apropos */
 
