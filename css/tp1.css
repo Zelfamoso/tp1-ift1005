@@ -90,12 +90,10 @@ footer {
 
 footer p {
     line-height: normal;
-    font-weight: bold;
 }
 
 p.noms {
     font-weight: bold;
-    color: red;
 }
 
 .image_accueil {
@@ -210,6 +208,9 @@ ol {
 /* Fin du style pour page d'accueil flottant*/
 
 /* Style pour la page apropos */
+code {
+    color: #f0f2f6;
+}
 .organisation-contraste {
     display: flex;
     position: relative;
@@ -349,6 +350,3 @@ p.plan {
 
 
 
-code {
-    color: #f0f2f6;
-}
