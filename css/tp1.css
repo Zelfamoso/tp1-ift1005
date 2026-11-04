@@ -172,7 +172,7 @@ ol {
 
 #presentation {
     display: inline-block;
-    margin-left: 17%;
+    /* margin-left: 17%; */
     padding: 10px;
     background-image: radial-gradient(circle, #d9d9d9, #2a3347);
 }
@@ -189,24 +189,24 @@ ol {
 }
 
 #contraste {
-    width: 600px;
-    height: 300px;
-    border: 4px solid orange;
-    display: flex;
-    position: relative;
     margin-right: 10px;
 }
 
-#contraste2 {
-    width: 600px;
+#contraste, #contraste2 {
+    width: 450px;
     height: 300px;
     border: 4px solid orange;
-    display: flex;
-    position: relative;
+    float: right;
+    shape-outside: content-box;
+}
+
+.texte-contraste {
+    text-wrap: wrap;
 }
 
 #preuve-proximite {
-    height: 400px;
+    height: 300px;
+    width: 80%;
     display: block;
     margin: 0 auto;
     border:4px solid azure;
@@ -251,6 +251,10 @@ h3.arts,h2.arts {
     width: auto;
     height: 32%;
     max-width: 40%;
+}
+
+.liste {
+    margin-left: 25%;
 }
 /* Fin du style pour la page arts*/
 
