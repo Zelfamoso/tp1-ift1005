@@ -114,12 +114,13 @@ p.noms {
 
 h1 {
     color: #f0f2f6;
-    font-size: 30px;
+    font-size: 40px;
     padding: 25px;
     border: 0;
     margin: 0;
     align-self: center;
     float: right;
+    letter-spacing: 8px;
 }
 
 h2 {
