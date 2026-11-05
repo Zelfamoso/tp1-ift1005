@@ -285,16 +285,14 @@ h2.arts {
 #statue,
 #conference {
     margin-right: 30px;
-    float: left;
 }
 
 #immersion,
 #photo {
     margin-left: 20px;
-    float: right;
 }
 
-#photo {
+#salle-photo {
     margin-bottom: 20px;
 }
 
@@ -312,29 +310,14 @@ h2.arts {
 
 /* Style pour page histoire */
 
-.card {
-    box-sizing: border-box;
-    width: 100%;
-    text-align: left;
-    max-width: 70%;
+.right-column {
+    max-width: 30%;
+    margin-left: 20px;
 }
 
-.column1 {
-    box-sizing: border-box;
-    width: 100%;
+.left-column {
     max-width: 30%;
-    display: block;
-    margin: auto;
-    text-align: right;
-}
-
-.column2 {
-    box-sizing: border-box;
-    width: 100%;
-    max-width: 30%;
-    display: block;
-    margin: auto;
-    text-align: left;
+    margin-right: 20px;
 }
 
 /* Fin du style pour page histoire */
