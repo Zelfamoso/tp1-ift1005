@@ -218,23 +218,20 @@ ol {
 /* Fin du style pour page d'accueil flottant*/
 
 /* Style pour la page apropos */
-.organisation-contraste {
-    display: flex;
-    position: relative;
-    text-wrap: wrap;
+code {
+    color: white
 }
 
-#contraste {
+
+#contraste1 {
     margin-right: 10px;
 }
 
-#contraste,
+#contraste1,
 #contraste2 {
     width: 450px;
     height: 300px;
     border: 4px solid orange;
-    float: right;
-    shape-outside: content-box;
 }
 
 .texte-contraste {
@@ -249,26 +246,29 @@ ol {
     border: 4px solid azure;
 }
 
+#preuve-alignement {
+    max-height: 300px;
+}
 /* Fin du style pour la page apropos */
 
 /* Style pour la page arts */
-h3.arts,
+/* h3.arts,
 h2.arts {
-    position: relative;
+    position: relative; 
     width: 80%;
     left: 10%;
     right: 10%;
     top: 20%;
     padding-top: 30px;
-}
+} */
 
 .organisation-interne {
-    display: flex;
+    display: inline-flex;
     position: relative;
-    width: 80%;
+    /* width: 80%;
     left: 10%;
     right: 10%;
-    top: 20%;
+    top: 20%; */
 }
 
 #statue,
@@ -293,7 +293,6 @@ h2.arts {
     height: 32%;
     max-width: 40%;
 }
-
 
 .liste {
     margin-left: 25%;
@@ -335,7 +334,6 @@ h2.arts {
     margin: auto;
     text-align: left;
 }
-
 /* Fin du style pour page histoire */
 
 /* Style pour page plan */
