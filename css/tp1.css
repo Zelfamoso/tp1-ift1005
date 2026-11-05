@@ -9,15 +9,7 @@ Maximo Mayorga
 20345993
 maximo.mayorga@umontreal.ca
 */
-@font-face {
-    font-family: Bodoni;
-    src: url("/fonts/Libre_Bodoni/static/LibreBodoni-Bold.ttf");
-}
 
-@font-face {
-    font-family: Montserrat;
-    src: url("/fonts/Montserrat/static/Montserrat-Regular.ttf");
-}
 
 body {
     background-color: #1A2233;
@@ -129,6 +121,7 @@ h2 {
     color: #f0f2f6;
     font-family: Bodoni, Arial, Helvetica, sans-serif;
     font-size: 30px;
+    border-bottom: 2px solid #f0f2f6;
 }
 
 h3 {
@@ -155,7 +148,7 @@ ol {
 
 /* Style pour page d'accueil flottant*/
 .section {
-    height: 100vh;
+    height: 70vh;
     background-image: url("/images/accueil_flottant.jpg");
     background-attachment: fixed;
     background-position: center;
@@ -215,11 +208,18 @@ ol {
     overflow: hidden;
     max-height: 150px;
 }
+
 /* Fin du style pour page d'accueil flottant*/
 
 /* Style pour la page apropos */
 code {
-    color: white
+    color: orange;
+}
+
+.arrow {
+    color: orange;
+    float: right;
+    font-size: 30pt;
 }
 
 
@@ -229,8 +229,8 @@ code {
 
 #contraste1,
 #contraste2 {
-    width: 450px;
-    height: 300px;
+    height: 250px;
+    width: auto;
     border: 4px solid orange;
 }
 
@@ -263,23 +263,23 @@ code {
 /* Fin du style pour la page apropos */
 
 /* Style pour la page arts */
-/* h3.arts,
+h3.arts,
 h2.arts {
-    position: relative; 
+    position: relative;
     width: 80%;
     left: 10%;
     right: 10%;
     top: 20%;
     padding-top: 30px;
-} */
+}
 
 .organisation-interne {
     display: inline-flex;
     position: relative;
-    /* width: 80%;
+    width: 80%;
     left: 10%;
     right: 10%;
-    top: 20%; */
+    top: 20%;
 }
 
 #statue,
@@ -306,6 +306,7 @@ h2.arts {
 .liste {
     margin-left: 25%;
 }
+
 /* Fin du style pour la page arts*/
 
 /* Style pour page histoire */
