@@ -177,12 +177,12 @@ ol {
 }
 
 .maker-container {
+
     padding: 5px;
-    display: flex;
-    flex-direction: row;
     width: 100%;
-    flex-wrap: wrap;
     justify-content: center;
+    display: inline-flex;
+    position: relative;
 }
 
 .maker-card {
@@ -308,18 +308,9 @@ h2.arts {
 .liste {
     margin-left: 25%;
 }
-
 /* Fin du style pour la page arts*/
 
 /* Style pour page histoire */
-.container {
-    display: flex;
-    flex-direction: row;
-    width: 100%;
-    flex-wrap: wrap;
-    justify-content: center;
-    padding-bottom: 60px;
-}
 
 .card {
     box-sizing: border-box;

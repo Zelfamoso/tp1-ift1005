@@ -44,8 +44,8 @@ Trois pages de contenu original
 Titres, signets et CSS
 - [ ] Utiliser au moins 2 titres h2 dans le site, pas nécessairement sur la même page.
 - [ ] Donner aux h2 une police, une taille et une couleur qui les distinguent clairement du texte courant.
-- [ ] Ajouter un signet en haut et un signet en bas de la page la plus longue.
-- [ ] Créer les deux signets avec la balise <a>.
+- [X] Ajouter un signet en haut et un signet en bas de la page la plus longue.
+- [X] Créer les deux signets avec la balise <a>.
 - [ ] Faire pointer le signet du haut vers le bas de la page, et celui du bas vers le haut.
 - [ ] Placer les signets de manière clairement identifiable.
 - [ ] Mettre toutes les règles CSS dans un seul fichier externe.
