@@ -87,11 +87,13 @@ footer {
     font-size: smaller;
     font-style: italic;
     color: #f0f2f6;
+    margin-bottom: 0;
 
 }
 
 footer p {
-    line-height: normal;
+    line-height: 1.5;
+    margin: 0;
 }
 
 p.noms {
@@ -126,11 +128,12 @@ h1 {
 h2 {
     color: #f0f2f6;
     font-family: Bodoni, Arial, Helvetica, sans-serif;
+    font-size: 30px;
 }
 
 h3 {
     color: #f0f2f6;
-    font-size: larger;
+    font-size: 22px;
     font-family: Bodoni, Arial, Helvetica, sans-serif;
 }
 
@@ -249,6 +252,7 @@ code {
 #preuve-alignement {
     max-height: 300px;
 }
+
 /* Fin du style pour la page apropos */
 
 /* Style pour la page arts */
@@ -334,6 +338,7 @@ h2.arts {
     margin: auto;
     text-align: left;
 }
+
 /* Fin du style pour page histoire */
 
 /* Style pour page plan */
