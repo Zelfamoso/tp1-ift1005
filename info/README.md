@@ -17,8 +17,8 @@ Page d'accueil — index.html
 - [X] Expliquer ce que les visiteurs peuvent trouver sur le site.
 - [X] Expliquer comment naviguer entre les différentes pages.
 - [X] Ajouter un ou plusieurs paragraphes pertinents.
-- [ ] Ajouter au moins une image en lien avec le texte.
-- [ ] Vérifier que la page sert réellement de guide à la navigation.
+- [X] Ajouter au moins une image en lien avec le texte.
+- [X] Vérifier que la page sert réellement de guide à la navigation.
 
 Page À propos — apropos.html
 - [X] Décrire clairement le public cible du site.
@@ -35,26 +35,26 @@ Trois pages de contenu original
 - [X] Faire en sorte qu'au moins une de ces images ait une forme circulaire grâce à une bordure entièrement arrondie.
 - [X] Ajouter une liste numérotée contenant une liste imbriquée.
 - [X] Numéroter aussi la liste imbriquée, mais avec un type d'indices différent de celui de la liste principale.
-- [ ] Créer un petit logo ou badge uniquement avec du CSS, sans utiliser d'image.
+- [X] Créer un petit logo ou badge uniquement avec du CSS, sans utiliser d'image.
 - [ ] Donner au badge un aspect soigné, coloré et en relief, avec les effets visuels vus en cours.
-- [ ] Intégrer directement dans le HTML une figure SVG personnalisée et originale.
-- [ ] Créer une figure SVG représentant un objet reconnaissable ou une scène simple à partir de formes SVG de base.
-- [ ] Ne pas reproduire un objet présenté en cours ou dans une démonstration.
+- [X] Intégrer directement dans le HTML une figure SVG personnalisée et originale.
+- [X] Créer une figure SVG représentant un objet reconnaissable ou une scène simple à partir de formes SVG de base.
+- [X] Ne pas reproduire un objet présenté en cours ou dans une démonstration.
 
 Titres, signets et CSS
 - [ ] Utiliser au moins 2 titres h2 dans le site, pas nécessairement sur la même page.
 - [ ] Donner aux h2 une police, une taille et une couleur qui les distinguent clairement du texte courant.
 - [X] Ajouter un signet en haut et un signet en bas de la page la plus longue.
 - [X] Créer les deux signets avec la balise <a>.
-- [ ] Faire pointer le signet du haut vers le bas de la page, et celui du bas vers le haut.
-- [ ] Placer les signets de manière clairement identifiable.
-- [ ] Mettre toutes les règles CSS dans un seul fichier externe.
+- [X] Faire pointer le signet du haut vers le bas de la page, et celui du bas vers le haut.
+- [X] Placer les signets de manière clairement identifiable.
+- [X] Mettre toutes les règles CSS dans un seul fichier externe.
 - [ ] Utiliser le CSS de manière stratégique et cohérente sur les 5 pages.
 - [ ] Utiliser les notions HTML, CSS, éléments graphiques, design Web et SVG vues dans les 5 premières lectures.
 
 Qualité du code et validation
-- [ ] Utiliser la structure HTML de base correcte : html, head, body, etc.
-- [ ] Utiliser les balises sémantiques appropriées : header, nav, main, footer, h1, p, etc.
+- [X] Utiliser la structure HTML de base correcte : html, head, body, etc.
+- [X] Utiliser les balises sémantiques appropriées : header, nav, main, footer, h1, p, etc.
 - [ ] Indenter et espacer correctement le HTML et le CSS.
 - [ ] Vérifier la clarté et la propreté du code.
 - [ ] Corriger les fautes d'orthographe et de français.
