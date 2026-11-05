@@ -23,8 +23,8 @@ Page d'accueil — index.html
 Page À propos — apropos.html
 - [X] Décrire clairement le public cible du site.
 - [X] Présenter les principes de conception Web vus en cours que le site respecte.
-- [ ] Fournir une preuve pour chaque principe présenté : capture d'écran, mesure, extrait de code ou justification concrète.
-- [ ] Vérifier que chaque affirmation est accompagnée d'une preuve.
+- [X] Fournir une preuve pour chaque principe présenté : capture d'écran, mesure, extrait de code ou justification concrète.
+- [X] Vérifier que chaque affirmation est accompagnée d'une preuve.
 - [X] Ajouter une liste non numérotée des sources Web de toutes les images utilisées sur le site.
 - [X] Fournir les sources précises des images, et non simplement Google Images.
 

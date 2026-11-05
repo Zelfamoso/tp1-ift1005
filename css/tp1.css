@@ -214,10 +214,7 @@ ol {
     object-fit: cover;
     overflow: hidden;
     max-height: 150px;
-
-
 }
-
 /* Fin du style pour page d'accueil flottant*/
 
 /* Style pour la page apropos */
@@ -246,12 +243,22 @@ code {
     width: 80%;
     display: block;
     margin: 0 auto;
-    border: 4px solid azure;
+    border: 4px solid orange;
 }
 
-#preuve-alignement {
-    max-height: 300px;
+.alignement {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
 }
+
+.alignement img {
+    border: 2px solid orange;
+    height: 400px;
+    width: 500px;
+    text-align: center;
+}
+
 
 /* Fin du style pour la page apropos */
 
