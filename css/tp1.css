@@ -47,6 +47,7 @@ nav {
     color: #f0f2f6;
     padding-bottom: 40px;
     background-color: #2f3f5c;
+    margin-bottom: 40px;
 }
 
 nav #current {
@@ -114,6 +115,7 @@ h2 {
     font-family: Bodoni, Arial, Helvetica, sans-serif;
     font-size: 30px;
     border-bottom: 2px solid #f0f2f6;
+    padding: 5px;
 }
 
 h3 {
@@ -137,6 +139,7 @@ ol {
     color: #f0f2f6;
     padding: 10px;
 }
+
 /* Fin du CSS partagé */
 
 /* Style pour page d'accueil flottant*/
@@ -200,6 +203,7 @@ ol {
     overflow: hidden;
     max-height: 150px;
 }
+
 /* Fin du style pour page d'accueil flottant*/
 
 /* Style pour la page apropos */
@@ -242,10 +246,11 @@ ol {
 
 .alignement img {
     border: 2px solid orange;
-    height: 400px;
-    width: 500px;
+    height: 300px;
+    width: auto;
     text-align: center;
 }
+
 /* Fin du style pour la page apropos */
 
 /* Style pour la page arts */
@@ -310,18 +315,24 @@ h2.arts {
 /* Fin du style pour page histoire */
 
 /* Style pour page plan */
-#map_musée {
-    display: block;
-    margin: 0 auto;
-    max-width: 40%;
-    height: auto;
-    border-radius: 40px;
-    padding-bottom: 20px;
+.container-plan {
+    padding: 5%;
+    width: 80%;
+    justify-content: center;
+    display: flex;
+    position: relative;
+    gap: 120px;
+    text-align: left;
+    margin: auto;
 }
 
-p.plan {
-    text-align: center;
-    font-size: larger;
+.card-plan {
+    text-align: left;
+    box-sizing: border-box;
+    width: auto;
+    max-width: 50%;
+    align-items: bottom;
+    display: inline-block;
 }
 
 /* Fin du style pour plan */
