@@ -140,6 +140,23 @@ ol {
     padding: 10px;
 }
 
+.section-title {
+    position: relative;
+    width: 80%;
+    left: 10%;
+    right: 10%;
+    top: 20%;
+    padding-top: 30px;
+}
+
+.organisation-interne {
+    display: inline-flex;
+    position: relative;
+    width: 80%;
+    left: 10%;
+    right: 10%;
+    top: 20%;
+}
 /* Fin du CSS partagé */
 
 /* Style pour page d'accueil flottant*/
@@ -203,7 +220,6 @@ ol {
     overflow: hidden;
     max-height: 150px;
 }
-
 /* Fin du style pour page d'accueil flottant*/
 
 /* Style pour la page apropos */
@@ -250,29 +266,9 @@ ol {
     width: auto;
     text-align: center;
 }
-
 /* Fin du style pour la page apropos */
 
 /* Style pour la page arts */
-h3.arts,
-h2.arts {
-    position: relative;
-    width: 80%;
-    left: 10%;
-    right: 10%;
-    top: 20%;
-    padding-top: 30px;
-}
-
-.organisation-interne {
-    display: inline-flex;
-    position: relative;
-    width: 80%;
-    left: 10%;
-    right: 10%;
-    top: 20%;
-}
-
 #statue,
 #conference {
     margin-right: 30px;
@@ -297,7 +293,6 @@ h2.arts {
 .liste {
     margin-left: 25%;
 }
-
 /* Fin du style pour la page arts*/
 
 /* Style pour page histoire */
@@ -319,20 +314,19 @@ h2.arts {
     padding: 5%;
     width: 80%;
     justify-content: center;
-    display: flex;
+    display: inline-flex;
     position: relative;
     gap: 120px;
-    text-align: left;
     margin: auto;
 }
 
 .card-plan {
-    text-align: left;
-    box-sizing: border-box;
-    width: auto;
-    max-width: 50%;
-    align-items: bottom;
+    padding: 5px;
+    width: 100%;
     display: inline-block;
+    position: relative;
+    justify-content: center;
+
 }
 
 /* Fin du style pour plan */
