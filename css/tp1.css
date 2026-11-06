@@ -140,6 +140,13 @@ ol {
     padding: 10px;
 }
 
+.disposition-card {
+    padding: 5px;
+    width:100%;
+    justify-content: center;
+    position: relative;
+}
+
 .section-title {
     position: relative;
     width: 80%;
@@ -182,12 +189,10 @@ ol {
     background: #1A2233;
 }
 
-.maker-container {
-    padding: 5px;
-    width: 100%;
-    justify-content: center;
+
+
+#maker-container {
     display: inline-flex;
-    position: relative;
 }
 
 .maker-card {
@@ -320,13 +325,8 @@ ol {
     margin: auto;
 }
 
-.card-plan {
-    padding: 5px;
-    width: 100%;
+#card-plan {
     display: inline-block;
-    position: relative;
-    justify-content: center;
-
 }
 
 /* Fin du style pour plan */
