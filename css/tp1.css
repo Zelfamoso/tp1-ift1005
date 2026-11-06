@@ -83,22 +83,8 @@ footer p {
     margin: 0;
 }
 
-p.noms {
+.noms {
     font-weight: bold;
-}
-
-.image_accueil {
-    float: right;
-    width: 50%;
-}
-
-.div_acc {
-    position: relative;
-    width: 80%;
-    left: 10%;
-    right: 10%;
-    top: 20%;
-    padding: 30px;
 }
 
 h1 {
@@ -164,10 +150,9 @@ ol {
     right: 10%;
     top: 20%;
 }
-
 /* Fin du CSS partagé */
 
-/* Style pour page d'accueil flottant*/
+/* Style pour la page index*/
 .section {
     height: 70vh;
     background-image: url("/images/accueil_flottant.jpg");
@@ -179,19 +164,6 @@ ol {
     justify-content: center;
 }
 
-.section h1 {
-    color: #1A2233;
-    background: rgba(0, 0, 0, 0.35);
-    padding: 20px 40px;
-    font-size: 42px;
-}
-
-.content {
-    background: #1A2233;
-}
-
-
-
 #maker-container {
     display: inline-flex;
 }
@@ -202,20 +174,16 @@ ol {
     background-image: linear-gradient(0deg, #adb8d15f, #2f3f5c, #1A2233);
     width: auto;
     max-width: 50%;
-    height: 15%;
-    border: 20px;
     margin-left: 50px;
     margin-right: 50px;
     margin-bottom: 40px;
     padding: 20px;
     border-radius: 20%;
-    align-items: bottom;
-    font-weight: bolder;
+    font-weight: bold;
 }
 
 .maker-card a {
     color: rgb(248, 192, 61);
-    font-weight: bold;
 }
 
 .maker-card img {
@@ -223,11 +191,9 @@ ol {
     height: 150px;
     border-radius: 50%;
     object-fit: cover;
-    overflow: hidden;
-    max-height: 150px;
 }
+/* Fin du style pour la page index*/
 
-/* Fin du style pour page d'accueil flottant*/
 
 /* Style pour la page apropos */
 .code {
@@ -242,19 +208,8 @@ ol {
     font-size: 30pt;
 }
 
-#contraste1 {
-    margin-right: 10px;
-}
-
-#contraste1,
-#contraste2 {
-    height: 250px;
-    width: auto;
-    border: 4px solid orange;
-}
-
 #preuve-proximite {
-    height: 300px;
+    height: 100%;
     width: 80%;
     display: block;
     margin: 0 auto;
@@ -273,21 +228,16 @@ ol {
     width: auto;
     text-align: center;
 }
-
 /* Fin du style pour la page apropos */
 
+
 /* Style pour la page arts */
-#statue,
-#conference {
-    margin-right: 30px;
+#left-image {
+    margin-right: 20px;
 }
 
-#immersion,
-#photo {
+#right-image {
     margin-left: 20px;
-}
-
-#salle-photo {
     margin-bottom: 20px;
 }
 
@@ -301,11 +251,10 @@ ol {
 .liste {
     margin-left: 25%;
 }
-
 /* Fin du style pour la page arts*/
 
-/* Style pour page histoire */
 
+/* Style pour page histoire */
 .right-column {
     max-width: 30%;
     margin-left: 20px;
@@ -315,27 +264,29 @@ ol {
     max-width: 30%;
     margin-right: 20px;
 }
-
 /* Fin du style pour page histoire */
+
 
 /* Style pour page plan */
 .container-plan {
-    padding: 5%;
-    width: 80%;
+    display: flex;
     justify-content: center;
-    display: inline-flex;
-    position: relative;
-    gap: 120px;
+    width: 90%;
     margin: auto;
+    gap: 140px;
+    margin-bottom: 5%;
+}
+
+.container-plan img {
+    width: 125%;
+    height: auto;
+    display: flex;
 }
 
 #card-plan {
     display: inline-block;
 }
-
-.container-plan img {
-    height: auto;
-    width: 120%;
-}
-
 /* Fin du style pour plan */
+
+
+
