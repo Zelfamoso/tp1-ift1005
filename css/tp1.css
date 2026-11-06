@@ -97,7 +97,7 @@ h1 {
 }
 
 h2 {
-    color: #f0f2f6;
+    color: #9aa7b8;
     font-family: Bodoni, Arial, Helvetica, sans-serif;
     font-size: 30px;
     border-bottom: 2px solid #f0f2f6;
@@ -235,11 +235,11 @@ ol {
 
 
 /* Style pour la page arts */
-#left-image {
+.left-image {
     margin-right: 20px;
 }
 
-#right-image {
+.right-image {
     margin-left: 20px;
     margin-bottom: 20px;
 }
@@ -269,6 +269,20 @@ ol {
     margin-right: 20px;
 }
 
+.homme_affaire {
+    height: auto;
+    width: 20%;
+    display: block;
+    margin: auto;
+}
+
+.homme_affaire img {
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+    overflow: hidden;
+}
+
 /* Fin du style pour page histoire */
 
 
@@ -288,7 +302,7 @@ ol {
     display: flex;
 }
 
-#card-plan {
+.card-plan {
     display: inline-block;
 }
 
@@ -301,3 +315,29 @@ ol {
 }
 
 /* Fin du style pour plan */
+
+/* Style pour le logo en css */
+
+.logo_main {
+    width: 80px;
+    height: 80px;
+    background-color: orange;
+    border: 1px solid #f0f2f6;
+    border-radius: 50%;
+    position: relative;
+
+}
+
+.logo_int {
+    position: relative;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 25pt;
+    font-weight: bolder;
+    text-align: center;
+    color: white;
+    margin-top: 20px;
+    text-shadow: 4px 2px #707984;
+    letter-spacing: 7px;
+}
+
+/* Fin du style pour le logo en css */
