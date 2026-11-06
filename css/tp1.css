@@ -128,7 +128,7 @@ ol {
 
 .disposition-card {
     padding: 5px;
-    width:100%;
+    width: 100%;
     justify-content: center;
     position: relative;
 }
@@ -150,6 +150,7 @@ ol {
     right: 10%;
     top: 20%;
 }
+
 /* Fin du CSS partagé */
 
 /* Style pour la page index*/
@@ -192,6 +193,7 @@ ol {
     border-radius: 50%;
     object-fit: cover;
 }
+
 /* Fin du style pour la page index*/
 
 
@@ -228,6 +230,7 @@ ol {
     width: auto;
     text-align: center;
 }
+
 /* Fin du style pour la page apropos */
 
 
@@ -251,6 +254,7 @@ ol {
 .liste {
     margin-left: 25%;
 }
+
 /* Fin du style pour la page arts*/
 
 
@@ -264,6 +268,7 @@ ol {
     max-width: 30%;
     margin-right: 20px;
 }
+
 /* Fin du style pour page histoire */
 
 
@@ -286,7 +291,13 @@ ol {
 #card-plan {
     display: inline-block;
 }
+
 /* Fin du style pour plan */
 
 
+.container-plan img {
+    height: auto;
+    width: 100%;
+}
 
+/* Fin du style pour plan */
