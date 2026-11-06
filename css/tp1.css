@@ -164,6 +164,7 @@ ol {
     right: 10%;
     top: 20%;
 }
+
 /* Fin du CSS partagé */
 
 /* Style pour page d'accueil flottant*/
@@ -225,6 +226,7 @@ ol {
     overflow: hidden;
     max-height: 150px;
 }
+
 /* Fin du style pour page d'accueil flottant*/
 
 /* Style pour la page apropos */
@@ -271,6 +273,7 @@ ol {
     width: auto;
     text-align: center;
 }
+
 /* Fin du style pour la page apropos */
 
 /* Style pour la page arts */
@@ -298,6 +301,7 @@ ol {
 .liste {
     margin-left: 25%;
 }
+
 /* Fin du style pour la page arts*/
 
 /* Style pour page histoire */
@@ -327,6 +331,11 @@ ol {
 
 #card-plan {
     display: inline-block;
+}
+
+.container-plan img {
+    height: auto;
+    width: 120%;
 }
 
 /* Fin du style pour plan */
